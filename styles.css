@@ -1,0 +1,25 @@
+body {
+  background-color: #f8f7ff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 12em;
+  height: auto;
+  display: flex;
+}
