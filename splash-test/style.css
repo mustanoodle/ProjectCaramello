@@ -1,4 +1,6 @@
 /*  Electric Purple = #bf00ff
+    Ice Teal = #c9fff3
+    Other Purple = #cc00cc
     Melon = #e5a9a9
     Dutch White = #f4e4ba
     Ice Blue = 9df7e5
@@ -31,34 +33,18 @@ section {
 }
 
 .splash {
-  width: 50%;
-  height: auto;
-}
-
-.hidden .splash {
-  opacity: 0;
-  filter: blur(5px);
-  transform: translateY(-100%);
-  transition: all 2s;
-}
-
-.show .splash {
-  opacity: 1;
-  filter: blur(0px);
-  transform: translateY(0);
+  position: absolute;
 }
 
 .hidden {
   opacity: 0;
   filter: blur(5px);
-  transform: translateX(-100%);
   transition: all 2s;
 }
 
 .show {
   opacity: 1;
   filter: blur(0px);
-  transform: translateX(0);
 }
 
 @media(prefers-reduced-motion) {
