@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #F8F7FF;
+  /* background-color: #F8F7FF; */
   color: #000940;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-optical-sizing: auto;
@@ -13,6 +13,7 @@ body {
   font-style: normal;
   margin: auto;
   text-align: center;
+  background: radial-gradient(circle at 0% -20%, #bf00ff, #6489ff, #c9fff3);
 }
 
 img {
